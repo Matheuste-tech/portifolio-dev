@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #E3646E;
+  --purple: #bb72e9;
+      
+}
+ 
+
+header {
+  background-image: url(/assets/Background_Intro.png);
+  height: 750px;
+  background-size: cover;
+  padding-top: 120px;
+}
+
+#info {
+  height: 447px;
+  width: 1040px;
+
+  justify-self: center;
+ 
+  border: 1px solid red;
+  
+  img {
+    display: flex;
+    justify-self: center;
+  }
+
+  p {
+    color: white;
+  }
+}
