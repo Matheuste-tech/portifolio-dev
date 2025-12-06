@@ -1,0 +1,29 @@
+.title-lg {
+  font: var(--title-lg);
+}
+
+.title-md {
+  font: var(--title-md);
+}
+
+.title-sm {
+  font: var(--title-sm);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
+.tag {
+  background-color: var(--gray-200);
+  /* display: inline-bck; */
+}
+
