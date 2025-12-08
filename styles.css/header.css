@@ -7,13 +7,9 @@
 
   #arrow {
   position: absolute;
-  bottom: 60.5px;
-  left: 50%;
-  
-  /* border: 1px solid blue; */
-  
-
-}
+  bottom: 57px;
+  justify-self: center;
+  }
 }
 
 header {

@@ -1,0 +1,30 @@
+#trabalho {
+  background-color: var(--gray-500);
+  height: 917px;
+  padding: 72px 120px 144px;
+
+  header {
+    /* display: flex; */
+    span {
+      display: flex;
+      /* border: 1px solid blue; */
+      font: var(--subtitle);
+      justify-self: center;
+      padding-bottom: 8px;
+    }
+
+    p {
+      font: var(--title-md);
+      color: var(--gray-100);
+      padding-bottom: 56px;
+    }
+  }
+
+  #grid {
+      /* color: aqua; */
+  }
+
+}
+
+
+
