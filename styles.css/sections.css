@@ -1,10 +1,14 @@
 #trabalho {
+  position: relative;
+  
   background-color: var(--gray-500);
   height: 917px;
   padding: 72px 120px 144px;
 
   header {
-    /* display: flex; */
+    /* position: absolute; */
+    /* width: 1040px; */
+    height: 61px;
     span {
       display: flex;
       /* border: 1px solid blue; */
@@ -16,15 +20,119 @@
     p {
       font: var(--title-md);
       color: var(--gray-100);
-      padding-bottom: 56px;
+      /* margin-bottom: 56px; */
     }
   }
 
-  #grid {
-      /* color: aqua; */
+  .grid {
+    position: absolute;
+    bottom: 144px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 584px;
+    display: grid;
+    gap: 24px;
+    
+    grid-template-columns: repeat(3, 1fr);
+  
+    margin-top: 56px;
+    .card {
+     display: flex;
+     flex-direction: column;
+
+     padding: 12px 12px 17px;
+     background-color: var(--gray-400);
+     width: 330px;
+     height: 280px;
+     border-radius: 12px;
+
+     img {
+      border-radius: 8px;
+      height: 156px;
+      
+     }
+
+     span {
+      color: var(--gray-100);
+      font: var(--title-sm);
+      padding: 4px 0 8px;
+      margin-top: 20px;
+     }
+
+     p {
+      color: var(--gray-200);
+      font: var(--text-sm);
+      padding-bottom: 4px;
+      /* margin-bottom: 17px; */
+     }
+
+    }
   }
+
+
+
 
 }
 
+#servicos {
+  padding: 88px 120px 120px;
+  height: 480px;
+  background-color: var(--gray-600);
+  position: relative;
+
+  header {
+    span {
+    display: flex;
+    font: var(--subtitle);
+    color: var(--red);
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font: var(--title-md);
+    color: var(--gray-100);
+  }
+  }
+
+  main {
+    
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translate(-50%);
+
+    /* width: 888px; */
+    /* height: 155px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    div {
+      width: 280px;
+      border: 2px solid var(--gray-500);
+      padding: 20px;
+      border-radius: 12px;
+      }
+
+      span {
+        display: flex;
+        justify-self: left;
+        padding: 20px 0 8px;
+        font: var(--title-sm);
+        color: var(--gray-100);
+      }
+      
+      p {
+        font: var(--text-sm);
+        color: var(--gray-200);
+       
+      }
+
+    }
+    
+
+  }
 
 
+}
