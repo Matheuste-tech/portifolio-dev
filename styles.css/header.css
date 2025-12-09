@@ -1,9 +1,11 @@
 #intro {
   background-image: url(/assets/Background_Intro.png);
   height: 750px;
+  /* min-height: 100vh; */
   background-size: cover;
   padding-top: 120px;
   position: relative;
+  
 
   #arrow {
   position: absolute;
@@ -12,7 +14,7 @@
   }
 }
 
-header {
+  header {
   /* justify-content: center; */
   /* align-self: center; */
   position: absolute;
@@ -20,7 +22,7 @@ header {
   width: 680px;
   justify-self: center;
   /* border: 1px solid red; */
-  ;
+  
   img {
     display: flex;
     justify-self: center;
@@ -51,7 +53,7 @@ header {
     margin-left: 8px;
     margin-right: 8px;
   }
-}
+  }
 
 
 
