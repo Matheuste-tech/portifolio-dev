@@ -35,6 +35,10 @@
     grid-template-columns: repeat(3, 1fr);
   
     margin-top: 56px;
+
+    .card:hover {
+      border: 1.5px solid var(--gray-300);
+    }
     .card {
      display: flex;
      flex-direction: column;
@@ -48,8 +52,9 @@
      img {
       border-radius: 8px;
       height: 156px;
-      
      }
+
+     
 
      span {
       color: var(--gray-100);
@@ -134,10 +139,10 @@
 
 #contatos {
   background-image: url(/assets/Background_Contacts.png);
-  height: 787px;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 
+  height: 787px;
   position: relative;
 
   header {
@@ -176,6 +181,11 @@
     justify-self: center;
     bottom: 200px;
 
+    #link:hover {
+      border: 1.5px solid var(--blue);
+    }
+
+    
     #link {
       display: flex;
       place-items: center;
@@ -204,5 +214,9 @@
   
   
 }
+
+
+
+
 
 

@@ -1,8 +1,9 @@
 #intro {
   background-image: url(/assets/Background_Intro.png);
   height: 750px;
-  /* min-height: 100vh; */
-  background-size: cover;
+  
+  background-size: 100% 100%;
+  
   padding-top: 120px;
   position: relative;
   
